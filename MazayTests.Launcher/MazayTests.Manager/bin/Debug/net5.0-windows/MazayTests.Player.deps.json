@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "MazayTests.Player/1.0.0": {
+        "dependencies": {
+          "MazayTests.Core": "1.0.0"
+        },
+        "runtime": {
+          "MazayTests.Player.dll": {}
+        }
+      },
+      "MazayTests.Core/1.0.0": {
+        "runtime": {
+          "MazayTests.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MazayTests.Player/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MazayTests.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

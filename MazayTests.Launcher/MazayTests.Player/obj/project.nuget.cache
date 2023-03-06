@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "ikbRNqccX4r85nWJcm0DOV90XYlzXuTp+gge6+z7NZjF6Zq2Pcxm8POefR/NJzWwBDC0bdPC0jdJ/erB0zWr0A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Professional\\Desktop\\MazayTests\\MazayTests.Launcher\\MazayTests.Player\\MazayTests.Player.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Professional\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\Professional\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\Professional\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\Professional\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.17\\microsoft.netcore.app.host.win-x64.5.0.17.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,46 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MazayTests.Core\MazayTests.Core.csproj" />
+    <ProjectReference Include="..\MazayTests.Player\MazayTests.Player.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Custome\CustomScrollbar.cs" />
+    <Compile Update="Forms\ManagerTestsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\StartForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Custome\Resource.Designer.cs">
+      <DependentUpon>Resource.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Custome\CustomScrollbar.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CustomScrollbar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Custome\Resource.resx">
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resource.Designer.cs</LastGenOutput>
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>
